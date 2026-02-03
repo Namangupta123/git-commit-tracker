@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-impact-tracer"
+version = "0.1.0"
+description = "A CLI tool to detect which tests are impacted by a git commit."
+authors = [
+  { name="Naman Gupta", email="namanguptacse0330@gmail.com" },
+]
+dependencies = [
+    "GitPython",
+    "tree-sitter",
+    "tree-sitter-python",
+    "tree-sitter-javascript",
+    "tree-sitter-typescript",
+    "tree-sitter-go",
+    "tree-sitter-java"
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+git-impact-tracer = "impact_analyzer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Namangupta123/git-impact-tracer"
+LinkedIn = "https://www.linkedin.com/in/naman-gupta-cse"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
