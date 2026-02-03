@@ -1,2 +1,0 @@
-[console_scripts]
-impact-analyzer = impact_analyzer.cli:main

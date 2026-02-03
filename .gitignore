@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 dist/
 src/git_impact_tracer.egg-info
+src/git_commit_tracker.egg-info

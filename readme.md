@@ -1,6 +1,6 @@
-# Impact Analyzer
+# Git Commit Tracker
 
-Impact Analyzer is a small CLI utility to determine which tests a given Git commit touches by mapping changed file ranges to test definitions discovered via Tree-sitter ASTs.
+Git Commit Tracker is a small CLI utility to determine which tests a given Git commit touches by mapping changed file ranges to test definitions discovered via Tree-sitter ASTs.
 
 ## Key principles
 
@@ -26,7 +26,7 @@ pip install -e .
 Install from PyPI
 
 ```bash
-pip install git-impact-analyzer
+pip install git-commit-tracker
 ```
 
 Run the CLI

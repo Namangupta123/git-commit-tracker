@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "git-commit-analyzer"
+name = "git-commit-tracker"
 version = "0.1.0"
 description = "A CLI tool to detect which tests are impacted by a git commit."
 authors = [
@@ -26,7 +26,7 @@ license = { text = "MIT" }
 impact-analyzer = "impact_analyzer.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Namangupta123/git-impact-tracer"
+Homepage = "https://github.com/Namangupta123/git-commit-tracker"
 LinkedIn = "https://www.linkedin.com/in/naman-gupta-cse"
 
 [tool.setuptools.packages.find]
