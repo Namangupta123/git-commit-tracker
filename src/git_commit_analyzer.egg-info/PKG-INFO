@@ -1,3 +1,21 @@
+Metadata-Version: 2.4
+Name: git-commit-analyzer
+Version: 0.1.0
+Summary: A CLI tool to detect which tests are impacted by a git commit.
+Author-email: Naman Gupta <namanguptacse0330@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Namangupta123/git-impact-tracer
+Project-URL: LinkedIn, https://www.linkedin.com/in/naman-gupta-cse
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: GitPython
+Requires-Dist: tree-sitter
+Requires-Dist: tree-sitter-python
+Requires-Dist: tree-sitter-javascript
+Requires-Dist: tree-sitter-typescript
+Requires-Dist: tree-sitter-go
+Requires-Dist: tree-sitter-java
+
 # Impact Analyzer
 
 Impact Analyzer is a small CLI utility to determine which tests a given Git commit touches by mapping changed file ranges to test definitions discovered via Tree-sitter ASTs.
